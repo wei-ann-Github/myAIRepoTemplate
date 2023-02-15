@@ -49,6 +49,18 @@ ROOT
 
 ## Instructions
 
+### Docker Container
+
+Build once.
+```
+docker build . -t prototype
+```
+
+Run container after
+```
+docker run -p 8888:8888 prototype
+```
+
 ### Steps to setup application on NGINX
 
 Ref: https://faun.pub/deploy-flask-app-with-nginx-using-gunicorn-7fda4f50066a
