@@ -8,3 +8,7 @@ scikit-learn
 --find-links https://download.pytorch.org/whl/torch_stable.html
 torch>=1.4+cu111 
 accelerate
+transformers>=4.28
+trl
+peft
+datasets
