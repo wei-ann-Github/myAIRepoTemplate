@@ -40,6 +40,7 @@ ROOT
 │   ├── config.py  # standard notebook imports
 │   └── template.ipynb  # template for all notebooks. Do give a version number to notes book serving the same function.
 ├── nginx.conf
+├── pyproject.toml  # the specified file format of [PEP 518](https://peps.python.org/pep-0518/#specification)
 ├── references  # Papers that you referred to for the projects.
 ├── requirements.txt  # python library requirements. install with `pip install -r requirements.txt`
 ├── setup.cfg
