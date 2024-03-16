@@ -1,0 +1,3 @@
+builf:
+  script:
+    - /bin/true
