@@ -1,3 +1,15 @@
-built:
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  image: "python:3.9"
+  script:
+    - pip install -r requirements.txt
+    - pytest
+
+build:
+  image: ruby
   script:
     - /bin/true
